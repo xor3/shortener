@@ -15,9 +15,8 @@ Gem::Specification.new do |s|
   s.rubyforge_project         = "shortener"
   s.required_rubygems_version = "> 2.1.0"
   s.add_dependency "rails", ">= 3.0.7"
-  s.add_dependency "voight_kampff", '~> 1.1'
   s.add_development_dependency "sqlite3"
-  s.add_development_dependency "rspec-rails", '~> 3.3.0'
+  s.add_development_dependency "rspec-rails"
   s.add_development_dependency "shoulda-matchers", '~> 3'
   s.add_development_dependency "faker"
   s.add_development_dependency "byebug"
